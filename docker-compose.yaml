@@ -26,7 +26,7 @@ services:
     container_name: 'redis'
     environment:
       TZ: "Asia/Seoul"
-    command: redis-server --requirepass changeme --port 6379
+    command: redis-server --requirepass solasido --port 6379
     restart: always
     ports:
       - 6379:6379
